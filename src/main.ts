@@ -9,7 +9,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('Todo Application by Sowham')
     .setDescription(
-      'A REST API in NestJS for listing users todos and tasks, include JWT authentication to secure the endpoints. This involves setting up the NestJS framework, implementing JWT for user authentication, and creating the necessary controllers, services, and modules to handle todo and task operations.'
+      'Implement a REST API in NestJS to manage users todos and tasks, integrating JWT authentication for secure endpoints. This requires setting up the NestJS framework, and creating controllers, services, and modules for todo/task operations, with JWT-based user authentication.'
       )
     .setVersion('1.0')
     .addBearerAuth()
